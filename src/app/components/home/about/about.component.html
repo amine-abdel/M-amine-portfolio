@@ -1,0 +1,295 @@
+<section class="section about" id='about' (keydown)="onKeyDown($event)" tabindex="0">
+    <div class="container">
+        <div class="section-box">
+            <div class="about-title" data-animate="slideInUp" data-animate-duration="1000">
+                <h3 class="section-title">
+                    <span class='n-section-title'>01.</span> {{"AboutMe.Title" | translate}}
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-8 mb-4 mb-md-0">
+                    <div class="about-description">
+                        <p *ngFor='let text of "AboutMe.Paragraphs" | translate; let i = index'
+                           [innerHTML]="text"
+                           data-animate="fadeInLeft"
+                           [attr.data-animate-delay]="200 + (i * 300)"
+                           data-animate-duration="800">
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 mt-4 mt-md-0">
+                    <div class="about-img-container"
+                         data-animate="morphIn"
+                         data-animate-duration="1200"
+                         data-animate-delay="600">
+                        <img (click)='onImageClick()'
+                             class="rounded about-image clickable"
+                             width="100%"
+                             src="assets/images/Opener_2-01.svg"
+                             alt="José Andrés"
+                             title="Click para ver imagen ampliada">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Cards Grid - Full Width -->
+            <div class="skills-cards-container" data-animate="fadeInUp" data-animate-delay="800">
+
+                <!-- Development Languages Card -->
+                <div class="skill-card" data-animate="scaleIn" data-animate-delay="1000">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4 class="card-title">Langages de Développement</h4>
+                    </div>
+                    <div class="card-content">
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-name">C# 10+</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">JavaScript/TypeScript</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">HTML/CSS/SCSS</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Frameworks & Technologies Card -->
+                <div class="skill-card" data-animate="scaleIn" data-animate-delay="1100">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h4 class="card-title">Frameworks & Technologies</h4>
+                    </div>
+                    <div class="card-content">
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-name">ASP.NET Core (6/7/8)</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Entity Framework Core</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Angular</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">.NET APIs</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Architecture & Patterns Card -->
+                <div class="skill-card" data-animate="scaleIn" data-animate-delay="1200">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-sitemap"></i>
+                        </div>
+                        <h4 class="card-title">Architecture & Patterns</h4>
+                    </div>
+                    <div class="card-content">
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-name">Clean Architecture</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">DDD (Domain Driven Design)</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">CQRS</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">SOLID Principles</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- DevOps & CI/CD Card -->
+                <div class="skill-card" data-animate="scaleIn" data-animate-delay="1300">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4 class="card-title">DevOps & CI/CD</h4>
+                    </div>
+                    <div class="card-content">
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-name">Azure DevOps</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">GitHub Actions</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Docker & Docker Compose</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Azure Cloud Services</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Testing & Quality Card -->
+                <div class="skill-card" data-animate="scaleIn" data-animate-delay="1400">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-vial"></i>
+                        </div>
+                        <h4 class="card-title">Testing & Quality</h4>
+                    </div>
+                    <div class="card-content">
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-name">xUnit</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Moq</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">FluentAssertions</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">TDD/BDD</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Security & Authentication Card -->
+                <div class="skill-card" data-animate="scaleIn" data-animate-delay="1500">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4 class="card-title">Security & Authentication</h4>
+                    </div>
+                    <div class="card-content">
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-name">JWT</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">OAuth2</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">ASP.NET Identity</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Security Best Practices</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Monitoring & Logging Card -->
+                <div class="skill-card" data-animate="scaleIn" data-animate-delay="1600">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4 class="card-title">Monitoring & Logging</h4>
+                    </div>
+                    <div class="card-content">
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-name">Serilog</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">NLog</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Application Insights</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Performance Monitoring</span>
+                                <span class="skill-level intermédiaire">Intermédiaire</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Soft Skills Card -->
+                <div class="skill-card" data-animate="scaleIn" data-animate-delay="1700">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4 class="card-title">Soft Skills</h4>
+                    </div>
+                    <div class="card-content">
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-name">Leadership d'équipe</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Communication</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Résolution de problèmes</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Agile/Scrum</span>
+                                <span class="skill-level avancé">Avancé</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para imagen ampliada -->
+    <div class="image-modal-overlay"
+         *ngIf="isImageModalOpen"
+         (click)="onModalBackdropClick($event)"
+         [@fadeInOut]>
+        <div class="image-modal-container">
+            <button class="modal-close-btn"
+                    (click)="closeImageModal()"
+                    aria-label="Cerrar modal">
+                <span>&times;</span>
+            </button>
+            <img class="modal-image"
+                 src="assets/images/me6.jpg"
+                 alt="José Andrés - Imagen ampliada"
+                 [@zoomIn]>
+        </div>
+    </div>
+</section>

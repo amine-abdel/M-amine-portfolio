@@ -1,0 +1,322 @@
+@use "./../../../../variables" as *;
+
+.jobs{
+
+    max-width: 1000px;
+    margin: auto;
+
+    .section-subtitle {
+        color: $Green;
+        font-family: $CodeFont;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-bottom: 20px;
+        border-bottom: 1px solid $LightestNavy;
+        padding-bottom: 10px;
+    }
+
+    .jobs-section, .missions-section {
+        margin-bottom: 50px;
+    }
+
+    .job-description{
+        position: relative;
+        padding-left: 40px;
+        margin-bottom: 10px;
+        font-size: 18px;
+
+        &:before {
+            content: '▹';
+            position: absolute;
+            left: 8px;
+            color: $Green;
+        }
+    }
+
+    // Styles spécifiques pour la section des jobs
+    .jobs-section {
+        .jobs-timeline {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            
+            &:before {
+                content: '';
+                position: absolute;
+                left: 20px;
+                top: 0;
+                bottom: 0;
+                width: 2px;
+                background-color: $LightestNavy;
+                z-index: 1;
+            }
+            
+            .job-item {
+                position: relative;
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 30px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                
+                &:hover {
+                    transform: translateX(5px);
+                }
+                
+                &.active {
+                    .job-timeline-dot {
+                        background-color: $Green;
+                        box-shadow: 0 0 0 4px rgba(100, 255, 218, 0.2);
+                    }
+                    
+                    .job-header {
+                        .job-title {
+                            color: $Green;
+                        }
+                    }
+                }
+                
+                .job-timeline-dot {
+                    position: absolute;
+                    left: 16px;
+                    top: 20px;
+                    width: 12px;
+                    height: 12px;
+                    background-color: $LightestNavy;
+                    border-radius: 50%;
+                    border: 2px solid $Navy;
+                    z-index: 2;
+                    transition: all 0.3s ease;
+                }
+                
+                .job-header {
+                    margin-left: 50px;
+                    margin-right: 60px;
+                    min-width: 250px;
+                    padding: 15px 20px;
+                    background-color: rgba(10, 25, 47, 0.3);
+                    border-radius: 6px;
+                    border-left: 2px solid $LightestNavy;
+                    transition: all 0.3s ease;
+                    
+                    .job-title {
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: $LightestSlate;
+                        margin-bottom: 5px;
+                        line-height: 1.3;
+                    }
+                    
+                    .job-company {
+                        font-size: 13px;
+                        color: $Green;
+                        font-weight: 500;
+                        font-family: $CodeFont;
+                    }
+                }
+                
+                .job-content {
+                    flex: 1;
+                    min-width: 400px;
+                    background-color: rgba(10, 25, 47, 0.3);
+                    padding: 25px;
+                    border-radius: 8px;
+                    border-left: 3px solid $Green;
+                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                    animation: fadeInRight 0.5s ease;
+                    
+                    .job-time {
+                        margin-bottom: 25px;
+                        color: $LightSlate;
+                        font-size: 14px;
+                        display: flex;
+                        align-items: center;
+                        font-family: $CodeFont;
+                        font-weight: normal;
+                        letter-spacing: 0.05em;
+                    }
+                    
+                    .job-description-list {
+                        .job-description {
+                            margin-bottom: 15px;
+                            line-height: 1.6;
+                            color: $LightSlate;
+                            
+                            &:before {
+                                left: 12px;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Styles spécifiques pour la section des missions
+    .missions-section {
+        .missions-timeline {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            
+            &:before {
+                content: '';
+                position: absolute;
+                left: 20px;
+                top: 0;
+                bottom: 0;
+                width: 2px;
+                background-color: $LightestNavy;
+                z-index: 1;
+            }
+            
+            .mission-item {
+                position: relative;
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 30px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                
+                &:hover {
+                    transform: translateX(5px);
+                }
+                
+                &.active {
+                    .mission-timeline-dot {
+                        background-color: $Green;
+                        box-shadow: 0 0 0 4px rgba(100, 255, 218, 0.2);
+                    }
+                    
+                    .mission-header {
+                        .mission-title {
+                            color: $Green;
+                        }
+                    }
+                }
+                
+                .mission-timeline-dot {
+                    position: absolute;
+                    left: 16px;
+                    top: 20px;
+                    width: 12px;
+                    height: 12px;
+                    background-color: $LightestNavy;
+                    border-radius: 50%;
+                    border: 2px solid $Navy;
+                    z-index: 2;
+                    transition: all 0.3s ease;
+                }
+                
+                .mission-header {
+                    margin-left: 50px;
+                    margin-right: 60px;
+                    min-width: 250px;
+                    padding: 15px 20px;
+                    background-color: rgba(10, 25, 47, 0.3);
+                    border-radius: 6px;
+                    border-left: 2px solid $LightestNavy;
+                    transition: all 0.3s ease;
+                    
+                    .mission-title {
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: $LightestSlate;
+                        margin-bottom: 5px;
+                        line-height: 1.3;
+                    }
+                    
+                    .mission-company {
+                        font-size: 13px;
+                        color: $Green;
+                        font-weight: 500;
+                        font-family: $CodeFont;
+                    }
+                }
+                
+                .mission-content {
+                    flex: 1;
+                    min-width: 400px;
+                    background-color: rgba(10, 25, 47, 0.3);
+                    padding: 25px;
+                    border-radius: 8px;
+                    border-left: 3px solid $Green;
+                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                    animation: fadeInRight 0.5s ease;
+                    
+                    .job-time {
+                        margin-bottom: 25px;
+                        color: $LightSlate;
+                        font-size: 14px;
+                        display: flex;
+                        align-items: center;
+                        
+                        i {
+                            color: $Green;
+                            margin-right: 8px;
+                        }
+                    }
+                    
+                    .mission-description {
+                        .job-description {
+                            margin-bottom: 15px;
+                            line-height: 1.6;
+                            color: $LightSlate;
+                            
+                            &:before {
+                                left: 12px;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .container {
+    max-width: 950px;
+  }
+}
+
+@media (min-width: 880px) and (max-width: 992px) {
+  .container {
+    max-width: 850px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 880px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 768px){
+    .jobs {
+        .job-description{
+            padding: 0px;
+        }
+    }
+}
