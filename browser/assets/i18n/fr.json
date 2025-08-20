@@ -1,0 +1,321 @@
+{
+  "Header.Item1": "À Propos",
+  "Header.Item2": "Expérience",
+  "Header.Item3": "Projets",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "CV",
+  "Header.cvName": "CV_Mohammed_Amine.pdf",
+  "Loading": "Chargement...",
+
+  "Banner.Pretitle": "Bonjour ! Je m'appelle",
+  "Banner.Description": "Ingénieur d'Étude et Développement avec <span class='underline'>2+ ans d'expérience</span>, spécialisé dans le développement d'applications web dans l'<span class='underline'>écosystème .NET et Angular</span>. Expert en conception, maintenance et optimisation de solutions robustes et évolutives. À l'aise avec les méthodologies Agile/SCRUM et les pratiques DevOps (CI/CD, Docker, Jenkins). Passionné par les technologies émergentes, particulièrement l'intelligence artificielle et la vision par ordinateur.",
+  "Banner.ActionBtn": "Dire Bonjour",
+
+  "AboutMe.Title": "À Propos de Moi",
+  "AboutMe.Paragraphs": [
+    "En <span class='underline'>+2 ans d'expérience</span> j'ai couvert de nombreux rôles : <span class='underline'>Développeur Full-Stack</span>, <span class='underline'>Développeur .NET</span>, <span class='underline'>Développeur Angular</span>, et <span class='underline'>Ingénieur d'Étude</span>. J'aime contribuer mes connaissances pour créer de nouvelles choses qui aident à résoudre des problèmes.",
+    "Mes capacités incluent également l'implémentation d'améliorations système, l'optimisation des performances, la standardisation de patterns, et la suggestion et exécution d'idées qui ajoutent de la valeur au projet sur lequel je travaille.",
+    "Je programme aussi des choses pour mon usage personnel, que ce soit pour le loisir ou l'utilité, y compris des projets d'intelligence artificielle.",
+    "Certaines des technologies avec lesquelles j'ai été formé et travaillé incluent (mais ne sont pas limitées à) :"
+  ],
+
+  "Experience.Title": "Expérience",
+  "Experience.EmploymentSection": "Emploi Principal",
+  "Experience.MissionsSection": "Missions & Projets Clients",
+  "Experience.Jobs": [
+    {
+      "Tab": "Berexia Conseil",
+      "Title": "Ingénieur d'Étude et Développement",
+      "Date": "Février 2022 - Présent",
+      "Description": [
+        "Développeur Full-Stack .NET/Angular spécialisé dans le développement d'applications d'entreprise",
+        "Implémentation de nouvelles fonctionnalités, résolution d'anomalies et optimisation de modules back-end (.NET 6, .NET Framework 4.8, Entity Framework Core)",
+        "Développement de Web APIs et mise en place de tests unitaires/intégration (MSTest, Docker)",
+        "Refonte et migration de front-ends Angular (Angular 5 vers Angular 17), incluant l'adaptation du code aux nouveaux standards",
+        "Conception, correction et amélioration continue des interfaces front-end à partir de maquettes",
+        "Outils & Méthodologies : Azure DevOps, Agile, SCRUM, UML, Tests unitaires, Docker, Jenkins, MSTest, Hangfire"
+      ]
+    }
+  ],
+
+  "Experience.Missions": [
+    {
+      "Tab": "Groupe SCOR (Projet SCOPE)",
+      "Title": "Développeur Full-Stack .NET/Angular",
+      "Date": "Décembre 2023 - Présent",
+      "Description": [
+        "Implémentation de nouvelles fonctionnalités, résolution d'anomalies et optimisation de modules back-end (.NET 6, .NET Framework 4.8, Entity Framework Core)",
+        "Développement de Web APIs et mise en place de tests unitaires/intégration (MSTest, Docker)",
+        "Refonte et migration du front-end d'Angular 5 vers Angular 17, incluant l'adaptation du code aux nouveaux standards",
+        "Conception, correction et amélioration continue des interfaces front-end à partir de maquettes avec Angular 17",
+        "Outils & Méthodologies : Azure DevOps, Agile, SCRUM, UML, Tests unitaires, Docker, Jenkins, MSTest, Hangfire"
+      ]
+    },
+    {
+      "Tab": "Clarian",
+      "Title": "Développeur Power Platform",
+      "Date": "Octobre 2023 - Janvier 2024",
+      "Description": [
+        "Développement from scratch d'une application de gestion et d'agrégation de données d'établissements affiliés",
+        "Optimisation des processus internes grâce à une collecte structurée des données",
+        "Outils & Méthodologies : Power Platform (PowerApps, Power Automate), SharePoint, Agile, SCRUM"
+      ]
+    },
+    {
+      "Tab": "Groupe SCOR (Projet UP)",
+      "Title": "Développeur Full-Stack .NET/Angular",
+      "Date": "Mars 2023 - Novembre 2023",
+      "Description": [
+        "Conception et développement de services REST avec .NET 7, en assurant la compatibilité et la performance des APIs",
+        "Mise à jour de la couche d'accès aux données via Entity Framework Core et intégration avec SQL Server",
+        "Développement de nouvelles fonctionnalités front-end et back-end dans le cadre de l'évolution continue de l'application métier",
+        "Maintenance évolutive et optimisation de l'interface utilisateur avec Angular 13, NGRX, AG-Grid",
+        "Intégration de maquettes en expériences utilisateur dynamiques et responsives",
+        "Outils & Méthodologies : Azure DevOps, Agile, Docker, Jenkins, SCRUM"
+      ]
+    },
+    {
+      "Tab": "Groupe FAYAT",
+      "Title": "Développeur Full-Stack .NET/Angular",
+      "Date": "Février 2022 - Mars 2023",
+      "Description": [
+        "Participation au développement et à la maintenance d'une plateforme web interne de gestion de projets BTP (suivi de chantiers, ressources, rapports)",
+        "Optimisation des performances des APIs REST et des traitements back-end (.NET 6, .NET Framework 4.8), avec réduction significative des temps de réponse",
+        "Conception et automatisation de workflows asynchrones via Hangfire pour la planification de tâches critiques",
+        "Développement de services back-end modulaires en C#, avec amélioration continue du code et des performances SQL (procédures stockées)",
+        "Création et refonte d'interfaces front-end dynamiques en Angular 10/AngularJS, avec intégration de maquettes, correction de bugs et optimisation UX",
+        "Outils et technologies clés : Angular 10, AngularJS, .NET 6, .NET Framework 4.8, Entity Framework, Docker, Azure DevOps, Agile/SCRUM"
+      ]
+    }
+  ],
+
+  "Projects.Title": "Projets",
+  "Projects.Description": "Voici quelques projets sur lesquels j'ai travaillé récemment.",
+  "Projects.Projects": [
+    {
+      "Title": "AgroUrbana",
+      "Description": "Plateforme de gestion agricole urbaine avec système de monitoring en temps réel, gestion d'inventaire et rapports automatisés.",
+      "Technologies": ["Angular", "Laravel", "MySQL", "Docker"],
+      "Image": "assets/images/agrourbana/agrourbana1.png",
+      "Images": [
+        "assets/images/agrourbana/agrourbana1.png",
+        "assets/images/agrourbana/agrourbana2.png",
+        "assets/images/agrourbana/agrourbana3.png",
+        "assets/images/agrourbana/agrourbana4.png",
+        "assets/images/agrourbana/agrourbana5.png"
+      ],
+      "Link": "https://agrourbana.com",
+      "Github": "https://github.com/andresjosehr/agrourbana"
+    },
+    {
+      "Title": "TuSuperPlan",
+      "Description": "Application mobile pour la planification et gestion d'événements avec système de notifications et intégration de calendrier.",
+      "Technologies": ["React Native", "Node.js", "MongoDB", "Firebase"],
+      "Image": "assets/images/tusuperplan/tusuperplan1.png",
+      "Images": [
+        "assets/images/tusuperplan/tusuperplan1.png",
+        "assets/images/tusuperplan/tusuperplan2.png",
+        "assets/images/tusuperplan/tusuperplan3.png",
+        "assets/images/tusuperplan/tusuperplan4.png",
+        "assets/images/tusuperplan/tusuperplan5.png"
+      ],
+      "Link": "https://tusuperplan.com",
+      "Github": "https://github.com/andresjosehr/tusuperplan"
+    },
+    {
+      "Title": "Proyex",
+      "Description": "Plateforme de gestion de projets avec système de suivi de tâches, gestion d'équipe et rapports de performance.",
+      "Technologies": ["Angular", "ASP.NET Core", "SQL Server", "Azure"],
+      "Image": "assets/images/proyex/proyex1.png",
+      "Images": [
+        "assets/images/proyex/proyex1.png",
+        "assets/images/proyex/proyex2.png",
+        "assets/images/proyex/proyex3.png",
+        "assets/images/proyex/proyex4.png",
+        "assets/images/proyex/proyex5.png",
+        "assets/images/proyex/proyex6.png",
+        "assets/images/proyex/proyex7.png",
+        "assets/images/proyex/proyex8.png",
+        "assets/images/proyex/proyex9.png",
+        "assets/images/proyex/proyex10.png",
+        "assets/images/proyex/proyex11.png",
+        "assets/images/proyex/proyex12.png"
+      ],
+      "Link": "https://proyex.com",
+      "Github": "https://github.com/andresjosehr/proyex"
+    }
+  ],
+
+  "FeatureProjects.Title": "Mes Projets",
+  "FeatureProjects.Label": "Projet Mis en Avant",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Gisselle",
+      "Description": "Application web pour la gestion interne d'entreprise qui couvre les départements de vente, recouvrement et suivi, très vaste et complexe avec diverses fonctions réalisées en <span class='underline'>Angular</span> et <span class='underline'>Laravel</span>. Elle fonctionne avec <span class='underline'>websockets</span>, <span class='underline'>planifications</span>, <span class='underline'>laravel jobs</span>, intégrations avec WordPress, Zadarma, LiveConnect, etc.",
+      "imgs": [
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    },
+    {
+      "Title": "Emelteciot",
+      "Description": "Application de monitoring pour la consultation de données, réalisée avec <span class='underline'>Angular</span> et <span class='underline'>Laravel</span>. La bibliothèque <span class='underline'>chart.js</span> est appliquée.",
+      "imgs": [
+        "assets/images/proyex2/Captura de pantalla 2024-07-28 102852.png",
+        "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
+        "assets/images/proyex2/62cdf90c-6196-4a6e-b639-8919cda4f749.png",
+        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923.png",
+        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    },
+    {
+      "Title": "Vas Aviation",
+      "Description": "Application pour le suivi des demandes d'approvisionnement en carburant pour aéronefs. Elle dispose d'un <span class='underline'>module email</span>, <span class='underline'>notifications en temps réel</span>, <span class='underline'>gestion de fichiers CSV pour l'importation de données</span>, <span class='underline'>devis de prix</span>. Développée en <span class='underline'>Angular</span> et <span class='underline'>Laravel</span>.",
+      "imgs": [
+        "assets/images/vasaviation/capture0.png",
+        "assets/images/vasaviation/capture1.png",
+        "assets/images/vasaviation/capture2.png",
+        "assets/images/vasaviation/capture3.png",
+        "assets/images/vasaviation/capture4.png",
+        "assets/images/vasaviation/capture5.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    },
+    {
+      "Title": "GlobalJobs",
+      "Description": "Plateforme d'e-learning développée avec WordPress. Design entièrement personnalisé, avec des plugins développés à partir de zéro. Elle dispose d'un module de paiement personnalisé, de salle de classe virtuelle, de tableau de bord de suivi des cours.",
+      "imgs": [
+        "assets/images/globaljobs/capture1.png",
+        "assets/images/globaljobs/capture2.png",
+        "assets/images/globaljobs/capture3.png",
+        "assets/images/globaljobs/capture4.png",
+        "assets/images/globaljobs/capture5.png",
+        "assets/images/globaljobs/capture6.png"
+      ],
+      "Technologies": ["WordPress", "WordPress Codex", "PHP", "MySQL"]
+    },
+    {
+      "Title": "MBElectronics",
+      "Description": "Plateforme e-commerce pour produits technologiques. Développée avec WordPress et implémentant un système d'expédition pour les produits. Elle dispose de rapports de vente grâce à une programmation personnalisée.",
+      "imgs": [
+        "assets/images/mbelectronics/capture0.png",
+        "assets/images/mbelectronics/capture1.png",
+        "assets/images/mbelectronics/capture2.png"
+      ],
+      "Technologies": ["WordPress", "Elementor", "Woocommerce", "WordPress Codex", "PHP", "MySQL"]
+    },
+    {
+      "Title": "Agrourbana",
+      "Description": "Application de monitoring réalisée à partir de zéro avec un module d'authentification, <span class='underline'>graphiques configurables</span>, <span class='underline'>alarmes configurables</span>, et <span class='underline'>gestion d'utilisateurs</span>. Elle dispose également d'une logique pour des formulaires réactifs pour la configuration des paramètres.",
+      "imgs": [
+        "assets/images/agrourbana/agrourbana1.png",
+        "assets/images/agrourbana/agrourbana2.png",
+        "assets/images/agrourbana/agrourbana3.png",
+        "assets/images/agrourbana/agrourbana4.png",
+        "assets/images/agrourbana/agrourbana5.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    },
+    {
+      "Title": "Tu Super Plan",
+      "Description": "Estimateur de plans de santé qui dispose d'un moteur de recherche avancé. Les plans sont affichés en fonction de l'âge de l'utilisateur, du revenu mensuel et de la localisation. Elle dispose d'un <span class='underline'>chat en direct</span>, <span class='underline'>formulaire de contact</span>, <span class='underline'>système de notifications via WhatsApp et email</span>, <span class='underline'>authentification</span>, et <span class='underline'>gestion interne d'informations via le rôle administrateur</span>.",
+      "imgs": [
+        "assets/images/tusuperplan/tusuperplan1.png",
+        "assets/images/tusuperplan/tusuperplan2.png",
+        "assets/images/tusuperplan/tusuperplan3.png",
+        "assets/images/tusuperplan/tusuperplan4.png",
+        "assets/images/tusuperplan/tusuperplan5.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    },
+    {
+      "Title": "Proyexiot",
+      "Description": "Plateforme de monitoring de données pour puits d'eau, remorqueurs et diverses installations réalisée à partir de zéro avec un module d'authentification, <span class='underline'>graphiques configurables</span>, <span class='underline'>alarmes configurables</span>, <span class='underline'>gestion d'utilisateurs</span>, et <span class='underline'>géolocalisation avec openlayers</span>. Elle dispose également d'une logique pour des formulaires réactifs pour la configuration des paramètres.",
+      "imgs": [
+        "assets/images/proyex/proyex1.png",
+        "assets/images/proyex/proyex2.png",
+        "assets/images/proyex/proyex3.png",
+        "assets/images/proyex/proyex4.png",
+        "assets/images/proyex/proyex5.png",
+        "assets/images/proyex/proyex6.png",
+        "assets/images/proyex/proyex7.png",
+        "assets/images/proyex/proyex8.png",
+        "assets/images/proyex/proyex9.png",
+        "assets/images/proyex/proyex10.png",
+        "assets/images/proyex/proyex11.png",
+        "assets/images/proyex/proyex12.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    }
+  ],
+
+  "OtherProjects.Title": "Plus de Projets",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Hands Game",
+      "Description": "Jeu de pierre-papier-ciseaux étendu. Un projet personnel développé en Angular où vous jouez aléatoirement contre la machine. Il présente l'utilisation de services, interfaces et composants.",
+      "imgs": ["assets/images/hands-game.png"],
+      "ghLink": "https://github.com/andresjosehr/hands-game",
+      "demoLink": "https://projects.andresjosehr.com/hands-game",
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+    },
+    {
+      "Title": "Countries Viewer",
+      "Description": "Interface qui consomme une API de pays où vous pouvez voir une liste de pays, voir les détails de chaque pays, filtrer par nom et région. Elle dispose également d'un mode sombre pour basculer entre les thèmes sombre et clair.",
+      "imgs": ["assets/images/countries-viewer.png"],
+      "ghLink": "https://github.com/andresjosehr/countries-viewer",
+      "demoLink": "https://projects.andresjosehr.com/countries-viewer",
+      "Technologies": ["Angular", "RxJS", "SASS", "API"]
+    },
+    {
+      "Title": "Four Card Feature Section",
+      "Description": "Une page unique avec un design minimaliste listant 4 fonctionnalités dans 4 cartes. Des animations d'entrée sont utilisées avec les animations Angular.",
+      "ghLink": "https://github.com/andresjosehr/four-card-feature-section",
+      "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
+      "Technologies": ["Angular", "SASS", "CSS GRID"]
+    },
+    {
+      "Title": "Social Proof Section",
+      "Description": "Projet personnel d'une page conçue à partir d'un design réalisé dans Figma. Angular a été utilisé pour le développement avec SASS et CSS GRID.",
+      "ghLink": "https://github.com/andresjosehr/social-proof-section",
+      "demoLink": "https://projects.andresjosehr.com/social-proof-section",
+      "Technologies": ["Angular", "CSS GRID", "GIT"]
+    },
+    {
+      "Title": "FAQ Accordion Card",
+      "Description": "Accordéon de questions fréquemment posées avec logique et animations réalisées en Angular.",
+      "ghLink": "https://github.com/andresjosehr/faq-accordion",
+      "demoLink": "https://projects.andresjosehr.com/faq-accordion",
+      "Technologies": ["Angular", "CSS GRID", "Angular animations"]
+    },
+    {
+      "Title": "Profile Card",
+      "Description": "Design simple d'une page présentant une carte de profil avec les informations de base d'une personne.",
+      "ghLink": "https://github.com/andresjosehr/profile-card-component",
+      "demoLink": "https://projects.andresjosehr.com/profile-card-component",
+      "Technologies": ["Angular", "SASS", "GIT"]
+    }
+  ],
+
+  "Contact.Pretitle": "Et... Maintenant ?",
+  "Contact.Title": "Dites Bonjour !",
+  "Contact.Content": "Je serai ravi d'avoir de vos nouvelles si vous souhaitez discuter de nouvelles opportunités. Écrivez-moi, et je répondrai dès que je verrai votre message.",
+  "Contact.Description": "N'hésitez pas à me contacter si vous avez des questions ou si vous souhaitez collaborer sur un projet.",
+  "Contact.Btn": "Me Contacter",
+  "Contact.Email": "mohammed.amine@example.com",
+  "Contact.Phone": "+212 6 12 34 56 78",
+  "Contact.Address": "Casablanca, Maroc",
+  "Contact.Social": {
+    "LinkedIn": "https://linkedin.com/in/mohammed-amine",
+    "GitHub": "https://github.com/mohammed-amine",
+    "Twitter": "https://twitter.com/mohammed-amine"
+  },
+
+  "Footer.Copyright": "© 2024 Mohammed Amine. Tous droits réservés.",
+  "Footer.MadeWith": "Fait avec ❤️ au Maroc"
+}
