@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "andresjosehr-portfolio": {
+        "M-amine-portfolio": {
             "projectType": "application",
             "schematics": {},
             "root": "",
@@ -19,9 +19,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
-                        "outputPath": {
-                          "base": "dist/andresjosehr-portfolio"
-                        },
+                        "outputPath":  "dist/M-amine-portfolio",
                         "index": "src/index.html",
                         "polyfills": [
                           "src/polyfills.ts"
@@ -138,6 +136,9 @@
                             "devServerTarget": "andresjosehr-portfolio:serve:production"
                         }
                     }
+                },
+                "deploy": {
+                  "builder": "angular-cli-ghpages:deploy"
                 }
             }
         }
