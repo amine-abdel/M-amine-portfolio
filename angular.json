@@ -80,18 +80,18 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                      "buildTarget": "andresjosehr-portfolio:build"
+                      "buildTarget": "M-amine-portfolio:build"
                     },
                     "configurations": {
                         "production": {
-                          "buildTarget": "andresjosehr-portfolio:build:production"
+                          "buildTarget": "M-amine-portfolio:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                      "buildTarget": "andresjosehr-portfolio:build"
+                      "buildTarget": "M-amine-portfolio:build"
                     }
                 },
                 "test": {
@@ -129,11 +129,11 @@
                     "builder": "@angular-devkit/build-angular:protractor",
                     "options": {
                         "protractorConfig": "e2e/protractor.conf.js",
-                        "devServerTarget": "andresjosehr-portfolio:serve"
+                        "devServerTarget": "M-amine-portfolio:serve"
                     },
                     "configurations": {
                         "production": {
-                            "devServerTarget": "andresjosehr-portfolio:serve:production"
+                            "devServerTarget": "M-amine-portfolio:serve:production"
                         }
                     }
                 },

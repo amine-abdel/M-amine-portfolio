@@ -1,5 +1,5 @@
 {
-  "name": "andresjosehr-portfolio",
+  "name": "M-amine-portfolio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,9 +7,9 @@
     "build": "ng build",
     "build-portfolio": "ng build --configuration production",
     "build:prod": "ng build --configuration production --base-href https://andresjosehr.com/",
-    "postbuild:prod": "cp .nojekyll dist/andresjosehr-portfolio/browser/ && cp CNAME dist/andresjosehr-portfolio/browser/",
-    "deploy": "npm run build:prod && npm run postbuild:prod && ngh --dir=dist/andresjosehr-portfolio/browser --cname=andresjosehr.com",
-    "deploy:ci": "npm run postbuild:prod && ngh --dir=dist/andresjosehr-portfolio/browser --cname=andresjosehr.com --no-silent",
+    "postbuild:prod": "cp .nojekyll dist/M-amine-portfolio/browser/ && cp CNAME dist/M-amine-portfolio/browser/",
+    "deploy": "npm run build:prod && npm run postbuild:prod && ngh --dir=dist/M-amine-portfolio/browser --cname=andresjosehr.com",
+    "deploy:ci": "npm run postbuild:prod && ngh --dir=dist/M-amine-portfolio/browser --cname=andresjosehr.com --no-silent",
     "predeploy": "npm run build:prod",
     "test": "ng test",
     "lint": "ng lint",

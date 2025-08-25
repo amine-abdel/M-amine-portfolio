@@ -92,25 +92,34 @@ export class AboutComponent implements OnInit, AfterViewInit {
       });
     });
 
-    // Animar lista de skills
-    const skillsList = aboutSection.querySelector('.skills-list');
-    if (skillsList) {
-      this.animationsService.observeElement(skillsList as HTMLElement, {
-        type: 'fadeInUp',
-        delay: 800
-      });
-    }
-
-    // Animar skills individuales con stagger
-    const skills = aboutSection.querySelectorAll('.skill-element');
-    skills.forEach((skill: HTMLElement, index: number) => {
-      this.animationsService.observeElement(skill, {
+    // Animar todas las tarjetas de skills
+    const skillCards = aboutSection.querySelectorAll('.skill-card');
+    skillCards.forEach((card: HTMLElement, index: number) => {
+      this.animationsService.observeElement(card, {
         type: 'scaleIn',
         delay: 1000 + (index * 100)
       });
 
-      // Añadir efectos hover
-      this.animationsService.addHoverEffects(skill, ['lift', 'glow']);
+      // Efectos hover para cada tarjeta
+      this.animationsService.addHoverEffects(card, ['lift', 'glow']);
+    });
+
+    // Animar listas dentro de cada tarjeta (entrada suave)
+    const skillLists = aboutSection.querySelectorAll('.skill-card .skills-list');
+    skillLists.forEach((list: HTMLElement, index: number) => {
+      this.animationsService.observeElement(list, {
+        type: 'fadeInUp',
+        delay: 900 + (index * 100)
+      });
+    });
+
+    // Animar elementos individuales dentro de las listas
+    const skillItems = aboutSection.querySelectorAll('.skill-card .skills-list .skill-item');
+    skillItems.forEach((item: HTMLElement, index: number) => {
+      this.animationsService.observeElement(item, {
+        type: 'fadeInUp',
+        delay: 1100 + (index * 60)
+      });
     });
 
     // Animar imagen

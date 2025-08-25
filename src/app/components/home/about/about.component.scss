@@ -141,6 +141,7 @@
                 display: flex;
                 flex-direction: column;
                 gap: 12px;
+                overflow: visible; // prevent badge clipping
             }
 
             .skill-item {
@@ -149,6 +150,8 @@
                 align-items: center;
                 padding: 8px 0;
                 border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+                min-width: 0; // allow flex children to size correctly
+                column-gap: 12px;
 
                 &:last-child {
                     border-bottom: none;
@@ -159,34 +162,42 @@
                     font-family: $CodeFont;
                     color: $Slate;
                     font-weight: 500;
-                    flex: 1;
+                    flex: 1 1 auto;
                     margin-right: 12px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
                 }
 
                 .skill-level {
                     font-size: 12px;
                     font-family: $CodeFont;
-                    padding: 4px 10px;
+                    padding: 4px 12px;
                     border-radius: 15px;
                     font-weight: 600;
                     text-transform: uppercase;
-                    letter-spacing: 0.5px;
+                    letter-spacing: 0.3px;
                     white-space: nowrap;
+                    display: inline-flex;
+                    align-items: center;
+                    flex: 0 0 auto;
+                    overflow: visible;
+                    max-width: max-content;
+                }
 
-                    &.avancé {
-                        background: rgba(100, 255, 218, 0.2);
-                        color: $Green;
-                    }
+                .skill-level.avancé {
+                    background: rgba(100, 255, 218, 0.2);
+                    color: $Green;
+                }
 
-                    &.intermédiaire {
-                        background: rgba(255, 193, 7, 0.2);
-                        color: #ffc107;
-                    }
+                .skill-level.intermédiaire {
+                    background: rgba(255, 193, 7, 0.2);
+                    color: #ffc107;
+                }
 
-                    &.débutant {
-                        background: rgba(255, 87, 34, 0.2);
-                        color: #ff5722;
-                    }
+                .skill-level.débutant {
+                    background: rgba(255, 87, 34, 0.2);
+                    color: #ff5722;
                 }
             }
         }
@@ -195,7 +206,7 @@
     .skills-list{
         display: grid;
         grid-template-columns: repeat(2,minmax(140px,600px));
-        overflow: hidden;
+        overflow: visible;
         padding: 0;
         margin: 20px 0 0 0;
         list-style: none;

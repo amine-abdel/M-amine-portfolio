@@ -93,28 +93,29 @@
   "FeatureProjects.Label": "Highlighted Project",
   "FeatureProjects.Projects": [
     {
-      "Title": "Gisselle",
-      "Description": "Web application for internal company management that covers sales, collection, and tracking departments, very extensive and complex with various functions made in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. It works with <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>laravel jobs</span>, integrations with WordPress, Zadarma, LiveConnect, etc.",
+      "Title": "MatriQ",
+      "Description": "Innovative web application for <span class='underline'>automating quality control</span> of construction materials in factory settings. Based on <span class='underline'>intelligent predefined rules</span>, it ensures product compliance while optimizing production processes. The application provides <span class='underline'>real-time monitoring systems</span> and <span class='underline'>detailed reporting</span> to ensure operational excellence.",
       "imgs": [
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+        "assets/images/sonasid/Sonasid1.png",
+        "assets/images/sonasid/Sonasid2.png",
+        "assets/images/sonasid/Sonasid3.png",
+        "assets/images/sonasid/Sonasid4.png",
+        "assets/images/sonasid/Sonasid5.png",
+        "assets/images/sonasid/Sonasid6.png"
       ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Technologies": [".NET 6", "Entity Framework", "ASP.NET Identity", "JWT", "Bootstrap", "JavaScript"]
     },
     {
-      "Title": "Emelteciot",
-      "Description": "Monitoring application for data query, made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. The <span class='underline'>chart.js</span> library is applied.",
+      "Title": "Clariane",
+      "Description": "Centralized management application for Clariane company facilities, a committed player in care, healthcare and hospitality. Developed to <span class='underline'>automate and centralize data access</span> from each facility, <span class='underline'>control room and bed availability</span>, <span class='underline'>track equipment status</span> and optimize operational management. The application provides a real-time overview of all facilities.",
       "imgs": [
-        "assets/images/proyex2/Captura de pantalla 2024-07-28 102852.png",
-        "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
-        "assets/images/proyex2/62cdf90c-6196-4a6e-b639-8919cda4f749.png",
-        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923.png",
-        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
+        "assets/images/clariane/clarian-1.png",
+        "assets/images/clariane/clarian-2.png",
+        "assets/images/clariane/clarian-3.png",
+        "assets/images/clariane/clarian-4.png",
+        "assets/images/clariane/clarian-5.png"
       ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Technologies": ["Power Apps", "Power Automate", "SharePoint", "JavaScript", "Power BI"]
     },
     {
       "Title": "Vas Aviation",
