@@ -7,7 +7,7 @@
                 </h3>
             </div>
 
-            <div *ngFor='let project of "FeatureProjects.Projects" | translate; let i = index' class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
+            <div *ngFor='let project of ("FeatureProjects.Projects" | translate) | slice:0:3; let i = index' class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
                 <owl-carousel-o class='owl-carousel-o' [options]="customOptions" *ngIf="i%2==0">
                     <ng-container *ngFor="let img of project.imgs; let imgIndex = index">
                         <ng-template carouselSlide [id]="project.Title+'_slide_'+i+'_'+imgIndex">
